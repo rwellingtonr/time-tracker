@@ -7,7 +7,7 @@ export const BaseInput = styled.input((props) => ({
 	borderBottom: `2px solid ${props.theme["gray-500"]}`,
 	color: props.theme["gray-100"],
 	fontWeight: "bold",
-	fontSize: "1.125rem",
+	fontSize: "1rem",
 	padding: "0 0.5rem",
 
 	"&::placeholder": {
