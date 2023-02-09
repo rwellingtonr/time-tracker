@@ -17,6 +17,7 @@ export type CycleContextProps = {
 	timePassed: number
 	activeCycle?: Cycle
 	activeId: string | null
+	cycles: Cycle[]
 }
 export type CycleProviderProps = {
 	children: ReactNode
@@ -24,4 +25,9 @@ export type CycleProviderProps = {
 export type CreateNewTask = {
 	task: string
 	time: number
+}
+
+export type CycleStates = {
+	cycles: Cycle[]
+	activeCycleId: string | null
 }
