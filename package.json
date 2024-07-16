@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "/time-tracker/",
+	"homepage": "https://rwellingtonr.github.io/time-tracker/",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
